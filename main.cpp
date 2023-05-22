@@ -1,4 +1,4 @@
-n#include <iostream>
+#include <iostream>
 #include <cmath>
 #include <string>
 
@@ -44,7 +44,7 @@ cin >> decision;
     }
 
     cout << "We are gonna play hangman" << endl;
-    cout << "Try and guess the statement" << endl;
+    cout << "Try and guess the statement" << endl << endl;
 }
 
 //Function Game
@@ -133,7 +133,7 @@ void game ()
             cout << "You Guessed It!" << endl;
             cout << letter1 << " " << letter2 << letter3 << letter4 << letter5 << " " << letter6 << letter7 << letter8 << "!" << endl;
             
-            cout << "Wait, really? Thanks" << endl;
+            cout << "Wait, really? Thanks!" << endl << endl;
             cout << "Just Kidding :)" << endl;
         }
         else
@@ -162,4 +162,5 @@ void game ()
             cout<<("\n");
         }
     }
+
 
