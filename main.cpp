@@ -4,6 +4,9 @@
 
 using namespace std;
 
+// Completed: 6-12-23! 
+// Author: Maddawg9838
+
 void play ();
 void game ();
 void display ();
@@ -18,7 +21,7 @@ return(0);
 }
 
 
-//Function Play
+//Function Play is a prelude message before the game
 void play ()
 {
 char decision;
@@ -47,7 +50,7 @@ cin >> decision;
     cout << "Try and guess the statement" << endl << endl;
 }
 
-//Function Game
+//Function Game matches the letters and gives a congradulations message when guessed correctly
 void game ()
 {
     char letter, letter1 = '_', letter2 = '_', letter3 = '_', letter4 = '_', letter5 = '_', letter6 = '_', letter7 = '_', letter8 = '_';
@@ -59,6 +62,7 @@ void game ()
     cout << "Well…give it a go and guess a letter (use all capital letters or I will judge you for not correctly reading this message" << endl;
     cin >> letter;
     
+    // Since this is a preset word, the program uses a switch with the matching 
     while (win == false)
     {
         switch (letter)
@@ -145,7 +149,7 @@ void game ()
     }
 }
 
-    //Function Display
+    //Function Display displays a heart out of astericks
     void display()
 {
         int n,row,col;
