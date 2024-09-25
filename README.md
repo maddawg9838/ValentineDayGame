@@ -18,7 +18,7 @@ This is a festive take on the classic Hangman game, themed around Valentine's Da
 
 ## How to Run
 1. Clone the repository:
-   ```bash
+```bash
 git clone https://github.com/yourusername/ValentineHangman.git
 cd ValentineHangman
 ```
