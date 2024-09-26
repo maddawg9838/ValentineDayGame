@@ -1,7 +1,7 @@
 # Valentine's Day Hangman Game
 
 ## Overview
-This is a festive take on the classic Hangman game, themed around Valentine's Day. Players will guess letters to reveal a loving statement. The game is designed to be fun and interactive, perfect for celebrating the occasion with friends or loved ones.
+This is a festive take on the classic Hangman game, themed around Valentine's Day. Players will guess letters to reveal a loving statement ("I LOVE YOU"). The game is designed to be fun and interactive, perfect for celebrating the occasion with friends or loved ones.
 
 ## Features
 - **Interactive Gameplay**: Players can guess letters to uncover a secret message
@@ -37,7 +37,7 @@ The game is implemented in C++ and consists of functions that handle the welcome
 ### Key Functions
 - play() : Displays a welcome message and prompts the player to start.
 - game() : Handles the letter guessing logic and checks for wins.
-- display() : Shows a heart shape made of asterisks and a loving message
+- displayHeart() : Shows a heart shape made of asterisks and a loving message
 
 ## Author
 Madison Humphries
